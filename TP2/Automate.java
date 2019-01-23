@@ -5,7 +5,7 @@ import java.util.Stack;
 
 public class Automate {
 	
-	private ArrayList<String> etats_;
+	private List<String> etats_;
 	private int index_;
 	
 	public Automate() {
@@ -17,7 +17,7 @@ public class Automate {
 		index_=index;
 	}
 	
-	// permet de lire le fichier texte contenant des règles et qui crée l’automate responsable
+	// permet de lire le fichier texte contenant des rÃ¨gles et qui crÃ©e lâ€™automate responsable
 	public void CreerAutomate(String nomDeFichier) throws NumberFormatException, IOException {
 		etats_=new  ArrayList<String>();
 		String ligne;
